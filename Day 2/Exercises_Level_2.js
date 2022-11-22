@@ -8,10 +8,10 @@ console.log("3. typeof '10': " + typeof (value) + " | exactly equal: " + Number(
 //Check if parseFloat('9.8') is equal to 10 if not make it exactly equal with 10.
 console.log("4. parseFloat '9.8': " + parseFloat('9.8'))
 //Check if 'on' is found in both python and jargon
-let a = 'python', b = 'jargon'
+const a = 'python', b = 'jargon'
 console.log("5. python: " + a.includes('on') + " | jargon: " + b.includes('on'))
 //I hope this course is not full of jargon. Check if jargon is in the sentence.
-let sentence = 'I hope this course is not full of jargon'
+const sentence = 'I hope this course is not full of jargon'
 console.log("6. " + sentence.includes('jargon'))
 //Generate a random number between 0 and 100 inclusively.
 const randNum1 = Math.floor(Math.random() * 101)
@@ -23,7 +23,7 @@ console.log("8. " + randNum2)
 const randNum3 = Math.floor(Math.random() * 256)
 console.log("9. " + randNum3)
 //Access the 'JavaScript' string characters using a random number.
-let stringChar = 'JavaScript'
+const stringChar = 'JavaScript'
 const randNum4 = Math.floor(Math.random() * 11)
 console.log("10. " + stringChar[randNum4])
 //Use console.log() and escape characters to print the following pattern.

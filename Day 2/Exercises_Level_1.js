@@ -1,7 +1,7 @@
 //Declare a variable named challenge and assign it to an initial value '30 Days Of JavaScript'.
-let challenge = '30 Days of JavaScript'
-let companies = 'Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon'
-let sentence = 'You cannot end a sentence with because because because is a conjunction'
+const challenge = '30 Days of JavaScript'
+const companies = 'Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon'
+const sentence = 'You cannot end a sentence with because because because is a conjunction'
 //Print the string on the browser console using console.log()
 console.log('2. ' + challenge)
 //Print the length of the string on the browser console using console.log()
@@ -47,9 +47,9 @@ console.log('22. ' + challenge.endsWith('t'))
 //Use match() method to find all the a’s in 30 Days Of JavaScript
 console.log('23. ' + challenge.match('a'))
 //Use concat() and merge '30 Days of' and 'JavaScript' to a single string, '30 Days Of JavaScript'
-let stringA = '30 Days of'
-let stringB = 'JavaScript'
-let stringAB = ''
+const stringA = '30 Days of'
+const stringB = 'JavaScript'
+const stringAB = ''
 console.log('24. ' + stringAB.concat(stringA, stringB))
 //Use repeat() method to print 30 Days Of JavaScript 2 times
 console.log('25. ' + challenge.repeat(2))
