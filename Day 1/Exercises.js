@@ -1,43 +1,29 @@
-//1. comments can make code readable
-//2. Welcome to 30DaysOfJavaScript
-/*3. comments can make code readable, easy to reuse and informative*/
-//4. variable.js
-console.log("4. File variables.js")
-let stringVar = "string"
-let booleanVar = true
-let undefinedVar
-let nullVar = null
-console.log(stringVar)
-console.log(booleanVar)
-console.log(undefinedVar)
-console.log(nullVar)
-console.log("--------------------")
-//5. datatypes.js
-console.log("5. File datatypes.js")
-console.log(typeof stringVar)
-console.log(typeof booleanVar)
-console.log(typeof undefinedVar)
-console.log(typeof nullVar)
-console.log("--------------------")
-//6
+//comments can make code readable
+//Welcome to 30DaysOfJavaScript
+/*comments can make code readable, easy to reuse and informative*/
+//Declare four variables without assigning values
 let var1
 let var2
 let var3
 let var4
-//7
+
+//Declare four variables with assigned values
 let varOne = 1
 let varTwo = 2
 let varThree = 3
 let varFour = 4
-//8
+
+//Declare variables to store your first name, last name, marital status, country and age in multiple lines
 let firstName = 'Lautaro'
 let lastName = 'Girard'
-let maritalStatus = 'Single'
+let maritalStatus = 'Engaged'
 let country = 'Argentina'
 let age = 31
-//9
+
+//Declare variables to store your first name, last name, marital status, country and age in a single line
 let firstName2 = 'Lautaro', lastName2 = 'Girard', maritalStatus2 = 'Single', country2 = 'Argentina', age2 = 31
-//10
+
+//Declare two variables myAge and yourAge and assign them initial values and log to the browser console.
 let myAge = 31
 let yourAge = 31
 console.log("10. ")
