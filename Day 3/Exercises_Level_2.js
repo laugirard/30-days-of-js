@@ -77,13 +77,13 @@ let secondsLived = ((((parseInt(years) * 365) * 24) * 60) * 60);
 console.log(`You lived ${secondsLived} seconds`)
 
 //Create a human readable time format using the Date time object
-const now2 = new Date();
-const year2 = now.getFullYear();
-const month2 = now.getMonth() + 1;
-const day2 = now.getDate();
-const hours2 = now.getHours();
-const minutes2 = now.getMinutes();
+const current = new Date();
+const currentYear = current.getFullYear();
+const currentMonth = current.getMonth() + 1;
+const currentDay = current.getDate();
+const currenHours = current.getHours();
+const currentMinutes = current.getMinutes();
 
-console.log(`${year2}-${month2}-${day2} ${hours2}:${minutes2}`)
-console.log(`${day2}-${month2}-${year2} ${hours2}:${minutes2}`)
-console.log(`${day2}/${month2}/${year2} ${hours2}:${minutes2}`)
+console.log(`${currentYear}-${currentMonth}-${currentDay} ${currenHours}:${currentMinutes}`)
+console.log(`${currentDay}-${currentMonth}-${currentYear} ${currenHours}:${currentMinutes}`)
+console.log(`${currentDay}/${currentMonth}/${currentYear} ${currenHours}:${currentMinutes}`)
