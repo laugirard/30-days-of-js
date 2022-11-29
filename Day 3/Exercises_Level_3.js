@@ -6,12 +6,11 @@ const dateDay = date.getDate();
 let dateHours = date.getHours();
 let dateMinutes = date.getMinutes();
 
-if (dateHours < 10){
+if(dateHours < 10){
     dateHours = '0' + dateHours
-}
-
-if (dateMinutes < 10){
+} else if(dateMinutes < 10){
     dateMinutes = '0' + dateMinutes
 }
 
-console.log(`${dateYear}-${dateMonth}-${dateDay} ${dateHours}:${dateMinutes}`)
+console.log(`1. ${dateYear}-${dateMonth}-${dateDay} ${dateHours}:${dateMinutes}`)
+console.log("------------------------------")

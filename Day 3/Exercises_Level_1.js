@@ -8,12 +8,15 @@ let isMarried = false;
 let year = 2022;
 
 console.log("1.     " + typeof firstName, typeof lastName, typeof country, typeof city, typeof age, typeof isMarried)
+console.log("------------------------------")
 
 //Check if type of '10' is equal to 10
 console.log("2.     " + typeof '10')
+console.log("------------------------------")
 
 //Check if parseInt('9.8') is equal to 10
 console.log("3.     " + parseInt('9.8'))
+console.log("------------------------------")
 
 //Boolean value is either true or false.
 let truthyA = true;
@@ -25,6 +28,7 @@ let falsyC = (3 > 4);
 
 console.log("4i.    " + truthyA + " " + truthyB + " " + truthyC)
 console.log("4ii.   " + falsyA + " " +  falsyB + " " + falsyC)
+console.log("------------------------------")
 
 //Figure out the result of the following comparison expression first without using console.log(). After you decide the result confirm it using console.log()
 console.log("5i.    " + (4 > 3))      //true
@@ -39,6 +43,7 @@ console.log("5ix.   " + (4 != '4'))   //false
 console.log("5x.    " + (4 == '4'))   //true
 console.log("5xi.   " + (4 === '4'))  //false
 console.log("5xii.  " + ("python".length > "jargon".length ))  //false
+console.log("------------------------------")
 
 //Figure out the result of the following expressions first without using console.log(). After you decide the result confirm it by using console.log()
 console.log("6i.    " + (4 > 3 && 10 < 12))     //true
@@ -52,6 +57,7 @@ console.log("6viii. " + !(4 > 3 && 10 < 12))    //false
 console.log("6ix.   " + !(4 > 3 && 10 > 12))    //true
 console.log("6x.    " + !(4 === '4'))           //true
 console.log("6xi.   " + !("dragon".search('on') && "python".search('on'))) //false
+console.log("------------------------------")
 
 //Use the Date object to do the following activities
 const now = new Date();
@@ -63,3 +69,4 @@ console.log("7iv.   " + now.getDay())
 console.log("7v.    " + now.getHours())
 console.log("7vi.   " + now.getMinutes())
 console.log("7vii.  " + now.getTime())
+console.log("------------------------------")
