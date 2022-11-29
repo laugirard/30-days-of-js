@@ -1,11 +1,11 @@
 //Declare firstName, lastName, country, city, age, isMarried, year variable and assign value to it and use the typeof operator to check different data types.
-let firstName = 'Lautaro'
-let lastName = 'Girard'
-let country = 'Argentina'
-let city = 'Buenos Aires'
-let age = 31
-let isMarried = false
-let year = 2022
+let firstName = 'Lautaro';
+let lastName = 'Girard';
+let country = 'Argentina';
+let city = 'Buenos Aires';
+let age = 31;
+let isMarried = false;
+let year = 2022;
 
 console.log("1.     " + typeof firstName, typeof lastName, typeof country, typeof city, typeof age, typeof isMarried)
 
@@ -16,12 +16,12 @@ console.log("2.     " + typeof '10')
 console.log("3.     " + parseInt('9.8'))
 
 //Boolean value is either true or false.
-let truthyA = true
-let truthyB = (1 >= 0)
-let truthyC = (3 < 4)
-let falsyA = false
-let falsyB = (1 <= 0)
-let falsyC = (3 > 4)
+let truthyA = true;
+let truthyB = (1 >= 0);
+let truthyC = (3 < 4);
+let falsyA = false;
+let falsyB = (1 <= 0);
+let falsyC = (3 > 4);
 
 console.log("4i.    " + truthyA + " " + truthyB + " " + truthyC)
 console.log("4ii.   " + falsyA + " " +  falsyB + " " + falsyC)
@@ -54,7 +54,8 @@ console.log("6x.    " + !(4 === '4'))           //true
 console.log("6xi.   " + !("dragon".search('on') && "python".search('on'))) //false
 
 //Use the Date object to do the following activities
-const now = new Date()
+const now = new Date();
+
 console.log("7i.    " + now.getFullYear())
 console.log("7ii.   " + now.getMonth())
 console.log("7iii.  " + now.getDate())
